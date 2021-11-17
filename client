@@ -1,0 +1,5 @@
+from socket import socket, AF_INET, SOCK_STREAM
+
+socket_cliente = socket(AF_INET, SOCK_STREAM)
+
+socket_cliente.connect(('127.0.0.1', 9500))
